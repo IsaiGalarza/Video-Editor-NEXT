@@ -759,7 +759,7 @@ export class Store {
       mediaRecorder.start();
       setTimeout(() => {
         mediaRecorder.stop();
-      }, this.maxTime);
+      }, 10000);
       video.remove();
     })
 
